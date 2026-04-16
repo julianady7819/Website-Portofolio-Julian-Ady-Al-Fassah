@@ -21,7 +21,7 @@ function App() {
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3mb6 bg-black text-white w-fit p-6 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
-            <q className="p-2">Cara terbaik memprediksi masa depan adalah menciptakannya -Abraham Lincoln</q>
+            <h1 className="p-2">"Cara terbaik memprediksi masa depan adalah menciptakannya" -Abraham Lincoln</h1>
           </div>
           <h1 className="text-5xl/tight text-[#0759a6] font-bold mb-6">Hi, I am Agenda Bima</h1>
           <p className="text-base/loose mb-6 text-justify opacity-50">I am a student at the Sepuluh Nopember Institute of Technology with a strong interest in construction engineering, particularly in water resources infrastructure. I have mastered the basics of engineering drawing, cost planning calculations, and project implementation in the field. With my systematic analytical and problem-solving skills, I am able to work in a structured manner and make effective contributions. I am known as a disciplined, adaptable, and highly motivated individual who strives for continuous development.</p>
