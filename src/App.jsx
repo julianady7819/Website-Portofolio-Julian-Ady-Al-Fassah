@@ -481,7 +481,7 @@ function App() {
 
               <h2 className="text-xl text-white font-semibold mb-4">Send Message</h2>
 
-              <div className="flex flex-col text-white gap-5">
+              <div className="flex flex-col text-black gap-5">
 
                 <div className="flex flex-col gap-2">
                   <label className="font-semibold">Name</label>
