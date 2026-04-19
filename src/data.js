@@ -24,18 +24,20 @@ import Proyek15 from "/assets/proyek/proyek15.png";
 import Proyek16 from "/assets/proyek/proyek16.png";
 import Proyek17 from "/assets/proyek/proyek17.jpg";
 import Proyek18 from "/assets/proyek/proyek18.jpg";
+import Proyek19 from "/assets/proyek/proyekbali.jpeg";
+import Proyek20 from "/assets/proyek/proyekbali2.jpeg";
 
 export const listProyek = [
   {
     id: 1,
-    gambar: [Proyek1, Proyek2, Proyek3, Proyek4],
+    gambar: [Proyek4, Proyek20, Proyek19, Proyek1, Proyek2, Proyek3],
     nama: "Topographic Surveyor - Nusa Dua Bali PLN Main Substation",
     desk: [
       "Conducted comprehensive topographic surveys using Total Station for substation site preparation",
       "Modeled longitudinal and cross-sectional profiles using Civil 3D",
       "Created accurate situation maps for engineering decisions",
     ],
-     tools: ["RevTotal Station", "Excel", "Civil 3D", "Autocad"],
+     tools: ["Total Station", "Excel", "Civil 3D", "Autocad"],
     category: "survey",
     dad: "200",
   },
@@ -116,21 +118,20 @@ export const listProyek = [
 export const skillsData = {
   technical: [
     "AutoCAD",
-    "SketchUp",
+    "ArcGis",
     "Revit",
-    "Lumion",
-    "Enscape",
+    "HecRass",
+    "MPP",
     "2D Drafting",
     "3D Drafting",
     "Architectural Drawing",
     "Structural Drawing",
-    "MEP Drafting",
     "Surveying",
     "Cost Estimation",
     "Project Supervision",
   ],
   professional: [
-    "Communication",
+    "Effective Communication",
     "Teamwork",
     "Leadership",
     "Adaptability",
