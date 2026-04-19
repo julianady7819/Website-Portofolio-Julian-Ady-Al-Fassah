@@ -6,62 +6,112 @@ const Image = {
 
 export default Image;
 
-
-import Proyek1 from "/assets/proyek/proyek1.jpeg";
-import Proyek2 from "/assets/proyek/proyek2.jpeg";
-import Proyek3 from "/assets/proyek/proyek4.jpg";
-import Proyek4 from "/assets/proyek/proyek3.jpeg";
-import Proyek5 from "/assets/proyek/proyek5.jpeg";
-
+import Proyek1 from "/assets/proyek/proyek1.jpg";
+import Proyek2 from "/assets/proyek/proyek2.jpg";
+import Proyek3 from "/assets/proyek/proyek3.jpg";
+import Proyek4 from "/assets/proyek/proyek4.jpg";
+import Proyek5 from "/assets/proyek/proyek5.jpg";
+import Proyek6 from "/assets/proyek/proyek6.jpg";
+import Proyek7 from "/assets/proyek/proyek7.jpg";
+import Proyek8 from "/assets/proyek/proyek8.jpg";
+import Proyek9 from "/assets/proyek/proyek9.png";
+import Proyek10 from "/assets/proyek/proyek10.png";
+import Proyek11 from "/assets/proyek/proyek11.png";
+import Proyek12 from "/assets/proyek/proyek12.jpg";
+import Proyek13 from "/assets/proyek/proyek13.png";
+import Proyek14 from "/assets/proyek/proyek14.png";
+import Proyek15 from "/assets/proyek/proyek15.png";
+import Proyek16 from "/assets/proyek/proyek16.png";
+import Proyek17 from "/assets/proyek/proyek17.jpg";
+import Proyek18 from "/assets/proyek/proyek18.jpg";
 
 export const listProyek = [
   {
     id: 1,
-    gambar: Proyek1,
-    nama: "Survey and Analysis of Unit Price (AHSP) for East Java 2024East Java 2026 Unit Price Analysis Survey (AHSP) Survei Analisa Harga Satuan Pokok AHSP Jawa Timur 2026",
-    desk: "A study focused on evaluating and structuring standard unit price analysis (AHSP) in East Java for 2026, supporting accurate cost estimation and effective planning in construction and infrastructure projects.",
-    tools: ["Revit", "SPSS", "EXCEL"],
+    gambar: [Proyek1, Proyek2, Proyek3, Proyek4],
+    nama: "Topographic Surveyor - Nusa Dua Bali PLN Main Substation",
+    desk: [
+      "Conducted comprehensive topographic surveys using Total Station for substation site preparation",
+      "Modeled longitudinal and cross-sectional profiles using Civil 3D",
+      "Created accurate situation maps for engineering decisions",
+    ],
+     tools: ["RevTotal Station", "Excel", "Civil 3D", "Autocad"],
     category: "survey",
     dad: "200",
   },
   {
     id: 2,
-    gambar: Proyek2,
-    nama: "Internship at BBWS Bengawan Solo – Irrigation Network Improvement Project for the Bendo Irrigation Area (Phase III) stimate (RAB) for the Construction Project of Rumah Kepemimpinan Region IV Surabaya",
-    desk: "Irrigation Network Improvement Project Bendo Irrigation Area Phase III Assisted in field surveys, data collection, and monitoring of irrigation network improvements, supporting engineers in evaluating system performance and ensuring construction activities met technical standards and project timelines.",
-    tools: ["Revit", "SPSS", "EXCEL", "Surveying"],
-    category: "experience",
+    gambar: [Proyek5, Proyek6, Proyek7],
+    nama: "Topographic Surveyor - Construction of Mie Gacoan",
+    desk: [
+      "Executed topographic surveys using Total Station to ensure high-precision land data.",
+      "Generated longitudinal and cross-sectional existing drawings using Autodesk Civil",
+      "Developed detailed situation maps for site planning and construction",
+    ],
+    tools: ["Total Station", "Excel", "Civil 3D", "Autocad"],
+    category: "survey",
     dad: "300",
   },
   {
     id: 3,
-    gambar: Proyek3,
-    nama: "KKN Wengker ITS Program in Glinggang Village, PonorogoKN WENGKER ITS DESA GLINGGANG, PONOROGO",
-    desk: "A community service program conducted by ITS students in Glinggang Village, Ponorogo, focusing on collaborative development initiatives, local empowerment, and the application of academic knowledge to address real-world community challenges.",
-    tools: ["Leadership", "Team Management"],
-    category: "supervision",
+    gambar: [Proyek8, Proyek9, Proyek10, Proyek11],
+    nama: "Design and Estimator - Survey Investigation, and Design (SID) for Irrigation Madura Sampang & Bangkalan, Indonesia - 2025",
+    desk: [
+      "Performed field surveys and stakeholder interviews to gather critical technical data.",
+      "Developed technical planning and designs for water resources infrastructure.",
+      "Prepared detailed cost estimations (RAB) for irrigation development",
+    ],
+    tools: ["Google Earth Engine", "Excel", "Autocad"],
+    category: "design",
     dad: "400",
   },
   {
     id: 4,
-    gambar: Proyek4,
-    nama: "Project TecWater Resources Engineering Staff at PT. Prima Jaya Konsulindo, PT. Globetek Glory Konsultan, and PT. Ika Adya Perkasa (KSO)hnical Staff at BBWS Pemali Juana",
-    desk: "IPT. Prima Jaya Konsulindo, PT. Globetek Glory Konsultan, and PT. Ika Adya Perkasa Joint Operation Contributed to water resources engineering projects through data analysis, technical reporting, and coordination with project teams to support planning, design, and implementation of infrastructure solutions.nvolved in supporting technical aspects of infrastructure projects, including planning assistance, field supervision, and documentation, ensuring alignment with engineering standards and effective project implementation.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Project Supervision", "Surveying", "Architectural Drawing"],
-    category: "experience",
+    gambar: [Proyek12, Proyek13],
+    nama: "Surveyor & Data Analyst - East Java AHSP Basic Unit Price Survey",
+    desk: [
+      "Conducted basic unit price surveys for the Work Unit Price Analysis (AHSP) across East Java.",
+      "Modeled longitudinal and cross-sectional profiles using Civil 3D•	Analyzed data to support the standardization of regional construction costs.",
+    ],
+    tools: ["Excel", "SPSS"],
+    category: "survey",
     dad: "500",
   },
   {
-    id: 7,
-    gambar: Proyek5,
-    nama: "Askari Nusantara Group - Chief Education Officer",
-    desk: "Led operational activities within the division, overseeing coordination, resource management, and execution of programs to ensure efficiency, strategic alignment, and successful organizational outcomes.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Operational Strategy & Execution", "Process Optimization & Efficiency Improvement", "FramerBusiness Process Analysismotion"],
-    category: "experience",
+    id: 5,
+    gambar: [Proyek14, Proyek15],
+    nama: "Civil Drafter – Pucangsewu Retention Basin, Pacitan",
+    desk: [
+      "Developed detailed engineering drawings, including existing long-sections and cross-sections.",
+      "Designed technical plans for the retention basin and its supporting infrastructure.",
+      "Executed precise earthwork analysis to calculate total cut and fill volumes.",
+    ],
+    tools: [
+      "Excel",
+      "Civil 3D",
+      "Autocad",
+    ],
+    category: "design",
+    dad: "700",
+  },
+  {
+    id: 6,
+    gambar: [Proyek16, Proyek17, Proyek18],
+    nama: "Civil Drafter – Kali Kedurus Flood Control Project (NUFRep) Surabaya, Indonesia |2026 – Present",
+    desk: [
+      "Developed detailed longitudinal and cross-sectional drawings of existing conditions based on topographic survey data.",
+      "Produced comprehensive engineering design drawings for flood control infrastructure.",
+      "Calculated Earthwork volumes, including precise cut and fill requirements.",
+    ],
+    tools: [
+      "Excel",
+      "Civil 3D",
+      "Autocad",
+    ],
+    category: "design",
     dad: "700",
   },
 ];
-
 
 export const skillsData = {
   technical: [
@@ -90,4 +140,4 @@ export const skillsData = {
     "Attention to Detail",
     "Responsiveness to Feedback",
   ],
-}
+};
