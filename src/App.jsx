@@ -25,7 +25,7 @@ function App() {
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
             <h1 className="p-2">““Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.- Roy T. Bennett ””</h1>
           </div>
-          <h1 className="text-5xl/tight text-white font-bold mb-6">Hi, Julian Ady Al Fassah</h1>
+          <h1 className="text-5xl/tight text-white font-bold mb-6">Hi, I am Julian Ady Al Fassah</h1>
           <p className="text-base/loose text-white mb-6 text-justify opacity-100">Engineering student at the Sepuluh Nopember Institute of Technology (ITS), specializing in water infrastructure and construction management. Expert in integrating computational analysis with technical drawing to produce accurate engineering designs. Proven track record of fast adaptation to new work environments and a high motivation for technical competency development. Focused on work efficiency, discipline, innovation, and systematic project execution.</p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
