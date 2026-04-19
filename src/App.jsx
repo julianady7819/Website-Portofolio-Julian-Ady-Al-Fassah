@@ -484,7 +484,7 @@ function App() {
               <div className="flex flex-col text-black gap-5">
 
                 <div className="flex flex-col gap-2">
-                  <label className="font-semibold">Name</label>
+                  <label className="font-semibold text-white">Name</label>
                   <input
                     type="text"
                     name="name"
@@ -495,7 +495,7 @@ function App() {
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  <label className="font-semibold">Email</label>
+                  <label className="font-semibold text-white">Email</label>
                   <input
                     type="email"
                     name="email"
@@ -506,7 +506,7 @@ function App() {
                 </div>
 
                 <div className="flex flex-col gap-2">
-                  <label className="font-semibold">Message</label>
+                  <label className="font-semibold text-white">Message</label>
                   <textarea
                     name="message"
                     rows="5"
