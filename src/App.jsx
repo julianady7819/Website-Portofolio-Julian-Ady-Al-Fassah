@@ -23,9 +23,9 @@ function App() {
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3mb6 bg-white/20 text-white w-fit p-6 rounded-2xl">
             <img src={DataImage.HeroImage} alt="Hero Image" className="w-10 rounded-md" loading="lazy" />
-            <h1 className="p-2">“Take The Risk or Lost the Chance”</h1>
+            <h1 className="p-2">““Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.- Roy T. Bennett ””</h1>
           </div>
-          <h1 className="text-5xl/tight text-white font-bold mb-6">Hi, I am Julian Ady Al Fassah</h1>
+          <h1 className="text-5xl/tight text-white font-bold mb-6">Hi, Julian Ady Al Fassah</h1>
           <p className="text-base/loose text-white mb-6 text-justify opacity-100">Engineering student at the Sepuluh Nopember Institute of Technology (ITS), specializing in water infrastructure and construction management. Expert in integrating computational analysis with technical drawing to produce accurate engineering designs. Proven track record of fast adaptation to new work environments and a high motivation for technical competency development. Focused on work efficiency, discipline, innovation, and systematic project execution.</p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
@@ -75,7 +75,7 @@ function App() {
             <h2 className="text-xl text-white text-center font-semibold mb-4">Profile</h2>
             <img src={DataImage.HeroImage} alt="Image" className="w-12 rounded-md mb-10 sm:hidden" loading="lazy" />
             <p className="text-base/loose text-white font-extrabold mb-6 text-center opacity-100 leading-relaxed">
-              I am Diploma in Civil Engineering · Started in August 2022 · GPA 3.07 / 4.00
+              I am Diploma in Civil Engineering · Started in August 2022 · GPA 3.43 / 4.00
             </p>
             <p className="text-base/loose mb6 text-center text-white leading-relaxed">
               Engineering student at ITS specializing in water infrastructure and construction management, with strong skills in integrating computational analysis and technical drawing to produce accurate designs. Known for quick adaptability, high motivation to develop technical competence, and a disciplined, efficient, and systematic approach to project execution, with a focus on innovation.
