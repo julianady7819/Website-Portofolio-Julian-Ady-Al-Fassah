@@ -45,21 +45,23 @@ const ProjectCard = ({ proyek }) => {
                 {proyek.nama}
             </h1>
             <div>
-                <p className="text-base/loose text-white mb-4">
-                    {proyek.desk}
-                </p>
+                <ul className="list-disc pl-5 space-y-2 text-white mb-4">
+                    {proyek.desk.map((item, i) => (
+                        <li key={i}>{item}</li>
+                    ))}
+                </ul>
                 <span className="inline-block mb-3 text-xs text-white bg-white/10 px-3 py-1 rounded-full capitalize">
                     {proyek.category}
                 </span>
 
                 <div className="flex flex-wrap gap-2">
                     {proyek.tools.map((tool, index) => (
-                      <p
-                        className="py-1 px-3 border border-zinc-700 bg-[#0759a6] text-white rounded-md font-semibold"
-                        key={index}
-                      >
-                        {tool}
-                      </p>
+                        <p
+                            className="py-1 px-3 border border-zinc-700 bg-[#0759a6] text-white rounded-md font-semibold"
+                            key={index}
+                        >
+                            {tool}
+                        </p>
                     ))}
                 </div>
             </div>
