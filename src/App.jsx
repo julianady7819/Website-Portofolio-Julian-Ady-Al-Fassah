@@ -459,7 +459,7 @@ function App() {
 
               {/* IMPORTANT SETTINGS */}
               <input type="hidden" name="_captcha" value="false" />
-              <input type="hidden" name="_next" value="http://localhost:5173/" />
+              <input type="hidden" name="_next" value="https://julianady7819.github.io/Website-Portofolio-Julian-Ady-Al-Fassah/" />
 
               <h2 className="text-xl text-white font-semibold mb-4">Send Message</h2>
 
