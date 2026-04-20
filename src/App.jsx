@@ -115,7 +115,7 @@ function App() {
 
               <div className="flex flex-col text-center text-white gap-1">
                 <span className="font-medium">Email</span>
-                <span>agendabimapp@gmail.com</span>
+                <span>julianady746@gmail.com</span>
               </div>
 
               <div className="flex flex-col text-center text-white gap-1">

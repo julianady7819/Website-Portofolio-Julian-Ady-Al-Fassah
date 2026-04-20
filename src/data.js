@@ -57,7 +57,7 @@ export const listProyek = [
   {
     id: 3,
     gambar: [Proyek20, Proyek11, Proyek9, Proyek8, Proyek10],
-    nama: "Design and Estimator - Survey Investigation, and Design (SID) for Irrigation Madura Sampang & Bangkalan, Indonesia - 2025",
+    nama: "Design and Estimator - Survey Investigation, and Design (SID) for Irrigation Madura Sampang & Bangkalan, Indonesia",
     desk: [
       "Performed field surveys and stakeholder interviews to gather critical technical data.",
       "Developed technical planning and designs for water resources infrastructure.",
@@ -99,7 +99,7 @@ export const listProyek = [
   {
     id: 6,
     gambar: [Proyek16, Proyek17, Proyek18],
-    nama: "Civil Drafter – Kali Kedurus Flood Control Project (NUFRep) Surabaya, Indonesia |2026 – Present",
+    nama: "Civil Drafter – Kali Kedurus Flood Control Project (NUFRep) Surabaya, Indonesia",
     desk: [
       "Developed detailed longitudinal and cross-sectional drawings of existing conditions based on topographic survey data.",
       "Produced comprehensive engineering design drawings for flood control infrastructure.",
