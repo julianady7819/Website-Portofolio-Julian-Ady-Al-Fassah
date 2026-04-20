@@ -173,24 +173,6 @@ function App() {
             </ul>
           </div>
 
-
-          <hr className="border-[#0759a6]" />
-          {/* Experience 3 */}
-          <div>
-            <h3 className="font-semibold text-white">
-              Trainer – Bricklaying Competition (LKS SMK)
-            </h3>
-            <p className="text-sm text-white opacity-100 mb-2">
-              SMKN 3 Boyolangu, Tulungagung · 2022 – 2023
-            </p>
-
-            <ul className="text-white opacity-100 list-disc ml-5 space-y-1">
-              <li>Mentoring for Provincial and National Level Vocational Skills Competition</li>
-              <li>Technical Training in Masonry and Bricklaying Excellence</li>
-              <li>Establishing a fast and efficient workflow</li>
-            </ul>
-          </div>
-
           <hr className="border-[#0759a6]" />
           <div>
             <h3 className="font-semibold text-white">
